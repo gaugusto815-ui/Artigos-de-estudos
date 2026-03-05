@@ -78,5 +78,27 @@ var s = 'JavaScript'
 - s.lenght // quantos caracteres a string tem
 - s.toUpperCase() // tudo para 'MAIÚSCULAS'
 - s.toLoweCase() // tudo para 'minúsculas'
+ex: ex004.html
 
-- Vamos criar um exemplo usando o node.js
+* Formatando Números
+var n1 = 1543.5
+- n1
+- n1.toFixed(2)
+- n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+ex no node.js
+
+> var n1 = 1545.5
+undefined
+> n1
+1545.5
+> n1.toFixed(2)
+'1545.50'
+> n1.toFixed(2).replace('.', ',') // trocar o ponto por virgula
+'1545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //valor em reais 
+'R$ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) // valor em dolar
+'US$ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // valor em euro
+'€ 1.545,50'
