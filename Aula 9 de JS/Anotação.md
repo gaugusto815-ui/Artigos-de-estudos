@@ -32,10 +32,15 @@ basicamente um conjunto de objetos dentro do meu navegador que vai dar acesso ao
 - por marca
 getElementsByTagName()
 
-- por ID
+- por ID * toda ID representa por (#)
+getElementByld()
 
 - por nome
+getElementsByName()
 
-- por classe
+- por classe * toda classe representa por (.)
+getElementByClassName()
 
 - por seletor
+querySelector()
+querySelectorAll()
