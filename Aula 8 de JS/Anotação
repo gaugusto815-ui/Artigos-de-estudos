@@ -30,3 +30,40 @@ false
 > a != b
 true
 >
+
+- Operadores relacionais de indentidade
+
+* operador de igualdade restrita -> === *
+
+- 5 == 5 = true
+- 5 == '5' = true -> mesmo o '5' em string
+- 5 === '5' = false
+- 5 === 5 = true
+ex no node.JS
+
+> 5 == '5'
+true
+> var x = 5
+undefined
+> var y = '5'
+undefined
+> typeof x
+'number'
+> typeof y
+'string'
+> x == y
+true
+> x === y
+false
+> x != y
+false
+> x !== y
+true
+>
+
+* Operadores lógicos
+
+- ! significa negação
+- && significa conjunção
+- || significa disjunção
+
