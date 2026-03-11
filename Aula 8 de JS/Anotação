@@ -1,0 +1,32 @@
+*Resumo aula 8 curso de JS*
+
+* Operadores relacionais
+
+- 5 > 2 = true
+- 7 < 4 = false
+- 8 >= 8 = true
+- 9 <= 7 = false
+- 5 == 5 = true
+- 4 != 4 = false
+
+ex no node.JS
+
+> 5 > 2
+true
+> 8 < 4
+false
+> var a = 8
+undefined
+> var b = 15
+undefined
+> a > b
+false
+> a < b
+true
+> a <= b - 10
+false
+> a == b
+false
+> a != b
+true
+>
