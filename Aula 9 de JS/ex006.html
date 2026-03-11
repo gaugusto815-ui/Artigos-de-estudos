@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt.BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio da aula 9</title>
+    <style>
+       body{
+        background-color: bisque;
+        color: black;
+        font: normal 25pt arial;
+       }
+        
+    </style>
+</head>
+<body>
+    <h1>Treinando tudo sobre as Aulas de JavaScript</h1>
+    <p>sera que eu ja to ficando <strong>BOM no role</strong> ou to uma merda ainda?</p>
+    <p><strong>vamo ve se vai muda aqui carai</strong></p>
+    <p>e se eu muda pra aqui vai tambem</p>
+    <div id="msg">senta o dedo aqui</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByName('p')[0]
+        var d = window.document.getElementById('msg')
+        var c = window.document.querySelector('div#msg')
+        d.style.color = 'purple'
+        d.innerText = 'segura o gordaum'
+    </script>
+    
+</body>
+</html>
