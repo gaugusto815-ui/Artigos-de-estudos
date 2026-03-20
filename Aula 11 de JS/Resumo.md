@@ -1,4 +1,4 @@
-*Resumo aula 11 de JS*
+*Anotação aula de JS*
 
 * Condições 
 
